@@ -210,13 +210,6 @@ if __name__ == '__main__':
                     row.append("x" + str(l))
 
                 row.append("y")
-                row.append("pd")
-                row.append("sv")
-                row.append("fr")
-                row.append("pd_classification")
-                row.append("sv_classification")
-                row.append("fr_classification")
-                row.append("final_classification")
 
                 writer.writerow(row)
 
